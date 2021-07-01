@@ -3,7 +3,7 @@
     <head>
 		<meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-        <title>NOMBRE OBRA</title>
+        <title>ENCUENTRO </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <meta name="description" content="A piece by Lunalaffx" />
         <meta name="keywords" content="slit slider, plugin, css3, transitions, jquery, fullscreen, autoplay" />
@@ -29,23 +29,33 @@
 					<div class="sl-slide bg-1" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
 						<div class="sl-slide-inner">
 							
-							<h2>NOMBRE OBRA</h2>
-							<blockquote><iframe src="https://lunalaffx.github.io/recorrible01/prueba_3d" height="1080px" width="1920px"></iframe></blockquote>
+							<h2>ENCUENTRO</h2>
+							<iframe src="https://lunalaffx.github.io/recorrible01/prueba_3d" height="100%" width="100%"></iframe>
 						</div>
 					</div>
 					
 					<div class="sl-slide bg-2" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
 						<div class="sl-slide-inner">
 							
-							<blockquote><iframe src="https://lunalaffx.github.io/recorrible02/index" height="1080px" width="1920px" ></iframe></blockquote>	
+							<iframe src="https://lunalaffx.github.io/recorrible02/index" height="100%" width="100%" ></iframe>
 						</div>
 					</div>
 					
 					<div class="sl-slide bg-3" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
 						<div class="sl-slide-inner">
 							
-							<h2>INFO OBRA</h2>
-							<h3>lalala</h3>
+							<h2>ENCUENTRO</h2>
+							<blockquote style="font-family: 'Roboto', sans-serif;">
+								Las posibilidades de un contacto está tan cerca que no las vemos
+								La disociación está cada vez más encarnada, diluída en la aceptación
+								<br>
+								En este lugar de busqueda eterna
+								<br>
+								<br>
+								
+								encontrarnos 
+								en el umbral
+							</blockquote>
 						</div>
 					</div>
 					
@@ -89,19 +99,7 @@
 						initEvents = function() {
 
 							// add navigation events
-							$navArrows.children( ':last' ).on( 'click', function() {
-
-								slitslider.next();
-								return false;
-
-							} );
-
-							$navArrows.children( ':first' ).on( 'click', function() {
-								
-								slitslider.previous();
-								return false;
-
-							} );
+							
 
 							$nav.each( function( i ) {
 							
