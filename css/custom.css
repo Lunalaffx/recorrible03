@@ -124,8 +124,8 @@ model-viewer{
 .demo-1 .sl-slide blockquote p:before {
 	color: #f0f0f0;
 	color: rgba(244,244,244,0.65);
+	font-family: "Bookman Old Style", Bookman, Garamond, serif;
 	
-	font-family: 'Roboto', sans-serif;
 	
 	line-height: 60px;
 	width: 75px;
@@ -175,7 +175,6 @@ model-viewer{
 .demo-1 .bg-3 .sl-slide-inner,
 .demo-1 .bg-3 .sl-content-slice {
 	background: #000000;
-	
 }
 
 
@@ -185,7 +184,6 @@ model-viewer{
 .demo-1 .bg-3 blockquote{
 	color: rgb(255, 255, 255);
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
-	font-family: 'Roboto', sans-serif;
 }
 
 .demo-1 .bg-3 blockquote:before {
@@ -318,7 +316,6 @@ model-viewer{
 		height: 40px;
 		font-size: 120px;
 		left: -45px;
-		font-family: 'Roboto', sans-serif;
 	}
 
 }
